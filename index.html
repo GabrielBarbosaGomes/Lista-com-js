@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer async></script>
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>Lista do Dia</h1>
+    <div class="list">
+        <div class="list-init">
+            <div class="buttons-add">
+                <input type="text" class="addInfo" placeholder="Ex.: 'Escovar os dentes'">
+                <button class="confirmInfo" onclick= "incluirItem()">Adicione itens a lista</button >
+                
+            </div>
+            <div class="buttons-exit">
+                <input type="text" class="exitInfo" placeholder ="Ex.: 'Escovar os dentes'">
+                <button onclick="excluirItem(lista)" class="exitInfo">Excluir da lista</button>
+            </div>
+            
+        </div>
+        
+        <div id="lista-print">
+
+        </div>
+    </div>
+    </main>  
+</body>
+</html>
